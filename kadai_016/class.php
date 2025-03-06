@@ -41,8 +41,8 @@
       }
     }
     // インスタンス化
-    $food = new Food('potato', '250');
-    $animal = new Animal('dog', '60', '5000');
+    $food = new Food('potato', 250);
+    $animal = new Animal('dog', 60, 5000);
     // 出力
     print_r($food);
     echo '<br>';
